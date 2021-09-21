@@ -8,8 +8,16 @@ public class ClassesAndObjects {
     Person person2 = new Person();
     person2.name = "Alex";
     person2.age = 33;
-    System.out.println("Вас зовут " + person1.name + ", Вам " + person1.age + " лет");
+    System.out.println("Вас зовут " + person2.name + ", Вам " + person2.age + " лет");
+
+    Person person3 = new Person();
+    person3.name = "Alex";
+    person3.age = 33;
+    System.out.println("Вас зовут " + person3.name + ", Вам " + person3.age + " лет");
     }
+
+
+
 }
 class Person {
     String name;
